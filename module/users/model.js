@@ -6,13 +6,22 @@ const users = sq.define('users', {
         type: DataTypes.UUID,
         primaryKey: true,
     },
-    username: {
+    first_name: {
         type: DataTypes.STRING
     },
-    password: {
+    last_name: {
         type: DataTypes.STRING
     },
-    role: {
+    company_name: {
+        type: DataTypes.STRING
+    },
+    job_title: {
+        type: DataTypes.STRING
+    },
+    phone_number: {
+        type: DataTypes.STRING
+    },
+    email: {
         type: DataTypes.STRING
     }
 },
